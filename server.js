@@ -3,7 +3,7 @@ const express = require ('express');
 
 //Routes
 const path = require('path');
-//const api = require('./routes/index.js');
+const api = require('./routes/index.js');
 
 //Ports
 const PORT = process.env.PORT || 3001;
@@ -14,7 +14,7 @@ const app = express();
 //Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-//app.use('/', api);
+app.use('/api', api);
 app.use(express.static('public'));
 
 // GET Route for homepage
