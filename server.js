@@ -19,15 +19,15 @@ app.use(express.static('public'));
 
 // GET Route for homepage
 app.get('/', (req, res) =>
-res.sendFile(path.join(__dirname, './public/index.html'))
+res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
 // GET Route for notes page
 app.get('/notes', (req, res) =>
-res.sendFile(path.join(__dirname, './public/notes.html'))
+res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-// Wildcard route
+// Wildcard route get 404 error for all others
 app.all('*', (req,res) => {
 res.status(404).send('<h1>404! Page Not Found <h1>');
 });
