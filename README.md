@@ -3,10 +3,10 @@
 An application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
 ## Live Links
-Live Github: https://mblackwellgca.github.io/noteTaker/ 
-Github Repo: https://github.com/mblackwellgca/noteTaker 
-Live Heroku: https://sleepy-eyrie-70027.herokuapp.com/notes.html
-Heroku Repo: https://dashboard.heroku.com/apps/sleepy-eyrie-70027 
+* Live Github: https://mblackwellgca.github.io/noteTaker/ 
+* Github Repo: https://github.com/mblackwellgca/noteTaker 
+* Live Heroku: https://sleepy-eyrie-70027.herokuapp.com/notes.html
+* Heroku Repo: https://dashboard.heroku.com/apps/sleepy-eyrie-70027 
 
 ## Description
 ```
@@ -32,7 +32,7 @@ GIVEN a note-taking application
 
 ## Usage
 The following animation demonstrates the application functionality:
-* ![Entering, saving, recalling, and deleting notes](./dist/assets/images/passed_tests.png)
+* ![Entering, saving, recalling, and deleting notes](./public/assets/images/noteTaker.gif)
 
 ## Credits:
 * 🏫 Sandra Smith
@@ -40,7 +40,7 @@ The following animation demonstrates the application functionality:
 * 🔗 https://www.w3schools.com/
 * 🔗 https://stackoverflow.com/
 * 🔗 https://devcenter.heroku.com/ 
-
+* 🔗 https://nodejs.dev/learn
 ## License
 MIT License
 ---
