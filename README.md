@@ -5,7 +5,7 @@ An application called Note Taker that can be used to write and save notes. This 
 ## Live Links
 * Live Github: https://mblackwellgca.github.io/noteTaker/ 
 * Github Repo: https://github.com/mblackwellgca/noteTaker 
-* Live Heroku: https://sleepy-eyrie-70027.herokuapp.com/notes.html
+* Live Heroku: https://sleepy-eyrie-70027.herokuapp.com/
 * Heroku Repo: https://dashboard.heroku.com/apps/sleepy-eyrie-70027 
 
 ## Description
